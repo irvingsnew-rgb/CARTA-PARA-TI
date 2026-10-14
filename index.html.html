@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Para ti, siempre especial…</title>
+<style>
+:root{--ink:#513a4a;--rose:#a45c79;--paper:#fff7ed;--bg:#201529}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;color:var(--ink);font-family:Georgia,'Times New Roman',serif;background:radial-gradient(ellipse at top,#54324c 0%,#281a31 55%,#17111f 100%);padding:28px 14px 40px;display:flex;justify-content:center;align-items:flex-start;overflow-x:hidden}
+.stars{position:fixed;inset:0;pointer-events:none;background-image:radial-gradient(#fff 1px,transparent 1.5px),radial-gradient(#f7d8c9 1px,transparent 1.5px);background-size:137px 137px,211px 211px;background-position:20px 40px,80px 100px;opacity:.45}
+.wrap{position:relative;width:min(760px,100%);z-index:1}
+.intro{text-align:center;color:#fff0e8;padding:20px 12px 25px}
+.kicker{letter-spacing:.18em;text-transform:uppercase;font:12px Arial,sans-serif;opacity:.8}
+h1{font-size:clamp(30px,6vw,48px);font-weight:normal;font-style:italic;margin:12px 0}
+.intro p{font:16px/1.6 Arial,sans-serif;color:#f5dfe7;margin:0}
+button{border:1px solid #f3c8d8;background:#fff5f0;color:#75415a;border-radius:999px;padding:13px 22px;font-size:16px;cursor:pointer;box-shadow:0 5px 24px #0004;margin-top:18px}
+.paper{background:linear-gradient(145deg,#fff8ee,#f7e5d5);border:1px solid #e9cbb9;border-radius:7px;padding:clamp(24px,5vw,48px);box-shadow:0 18px 65px #0005;display:none;animation:appear .8s ease both}
+.paper.open{display:block}
+.paper h2{font-size:clamp(27px,5vw,37px);font-weight:normal;font-style:italic;color:var(--rose);margin:0 0 25px}
+.paper p{font-size:clamp(16px,2.5vw,19px);line-height:1.75;margin:0 0 18px}
+.paper strong{color:#874765}
+.end{border-top:1px solid #dcb8c5;margin-top:24px;padding-top:22px;text-align:center;color:var(--rose);font-style:italic;font-size:clamp(22px,4vw,29px);line-height:1.55}
+.sign{text-align:center;margin-top:18px;color:#93677b;font:14px Arial,sans-serif}
+.heart{position:fixed;bottom:-35px;z-index:2;pointer-events:none;animation:float 5s linear forwards;opacity:.85}
+@keyframes float{to{transform:translateY(-110vh) rotate(22deg);opacity:0}}
+@keyframes appear{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<div class="stars"></div>
+<main class="wrap">
+  <header class="intro">
+    <div class="kicker">Una pequeña sorpresa para ti ♡</div>
+    <h1>Para ti, siempre especial… 💌</h1>
+    <p>Hay cosas que a veces cuesta decir en voz alta.<br>Hoy quise escribirte algunas.</p>
+    <button id="read">Leer mi carta ♡</button>
+  </header>
+  <article class="paper" id="letter" aria-live="polite">
+    <h2>Para ti, siempre especial… ❤️✨</h2>
+    <p>No sé si alguna vez te he dicho de verdad lo mucho que significas para mí. 🥹 Hay personas que llegan a nuestra vida y, sin darnos cuenta, se convierten en alguien imposible de olvidar. Para mí, tú eres una de esas personas. 🫶🏻</p>
+    <p>Te extraño… ❤️‍🩹 Extraño nuestras pláticas, nuestras risas, la confianza que teníamos y esa ilusión tan bonita de imaginar que algún día podríamos llegar a ser algo más. 🥺💭 Extraño incluso esos pequeños momentos que quizá parecían simples, pero que para mí significaban muchísimo. 🤍</p>
+    <p>A veces me pongo a pensar en lo que pudo haber sido de nosotros… 🌙 En todo lo que imaginamos y en las veces que, por distintas circunstancias, no pudimos coincidir de la manera que hubiéramos querido. Quizá la vida tenía otros caminos para nosotros, pero eso no cambia lo bonito que fue sentir todo esto por ti. 🥀</p>
+    <p>Y aunque nunca hayamos podido escribir esa historia juntos, hay algo de lo que estoy seguro: <strong>jamás me voy a arrepentir de haberte conocido ni de haberte llevado tan bonito dentro de mi corazón.</strong> ❤️‍🔥</p>
+    <p>No te escribo para pedirte algo ni para cambiar nuestro destino. 🕊️ Simplemente quería decirte esas cosas que a veces uno guarda por miedo a no encontrar las palabras adecuadas. Porque hay sentimientos que, aunque no tengan el final que soñamos, merecen ser expresados. 💌</p>
+    <p>Entre tantas personas que he conocido, tú sigues teniendo un lugar muy especial en mí. 🫶🏻 Incluso cuando no hablamos, hay recuerdos tuyos que aparecen de la nada y me hacen sonreír, y otros que me hacen extrañarte un poquito más. 🥹❤️</p>
+    <p>Y sí, quizá esos TikToks que nos mandamos de vez en cuando dicen mucho más de lo que nos atrevemos a decir directamente. 🥺📱 Tal vez porque ambos entendemos lo que significa querer a alguien con quien nunca se pudo llegar a ser. Y qué bonito, pero también qué extraño, sentir tanto por alguien con quien la vida nunca terminó de acomodar las cosas. 🌙🤍</p>
+    <p><strong>👩🏻‍⚕️❤️ Siempre serás mi enfermera favorita, la niña más linda y hermosa que mis ojos han tenido la fortuna de conocer.</strong> 🥹🌷 Y más allá de todo lo que alguna vez imaginé contigo, deseo de corazón que la vida te regale cosas maravillosas. ✨</p>
+    <p>🌻 Que te vaya bonito en cada paso que des, que nunca te falten motivos para sonreír y que tengas la fuerza para superar cualquier obstáculo. Que culmines tus estudios, cumplas cada uno de tus sueños y llegues tan lejos como siempre has querido. 🎓✨ Ojalá nunca dejes de luchar por esa mujer tan increíble en la que te estás convirtiendo, porque mereces sentirte orgullosa de ti misma y de todo lo que logres. 🥹🫶🏻</p>
+    <p>Y si algún día la vida se pone difícil, recuerda que hay alguien que, incluso desde la distancia, desea sinceramente verte feliz y triunfar. 🤍🕊️</p>
+    <p>No sé qué lugar ocuparé yo en tu historia, pero tú siempre tendrás uno en la mía. ❤️‍🩹 Gracias por las conversaciones, por las risas, por las ilusiones y por haber sido parte de mi vida de una manera tan bonita. Gracias por ser tú, por esa niña que me hizo sentir tantas cosas y que, sin proponérselo, se convirtió en alguien tan difícil de olvidar. 🌹</p>
+    <p>Quizá nunca seamos ese «nosotros» que alguna vez imaginamos, pero eso no significa que lo que sentí por ti haya sido menos real. 🥀❤️</p>
+    <p><strong>✨ Y si hay algo que quiero que te lleves de estas palabras, es esto:</strong> 💌</p>
+    <p>Entre todos los caminos que pudimos haber tomado, me alegra que, aunque fuera por un tiempo, nuestros caminos se hayan encontrado. 🌎🤍</p>
+    <p>Cuídate mucho, mi niña hermosa. 🥹🌷 Nunca dudes de lo valiosa que eres ni de todo lo bonito que mereces en esta vida. Te deseo un mundo lleno de sueños cumplidos, sonrisas sinceras y momentos que te hagan inmensamente feliz. 🦋✨</p>
+    <div class="end">Aunque nunca pudimos ser,<br>siempre te voy a amar. ❤️‍🩹♾️</div>
+    <div class="sign">Con mucho cariño, para ti. ♡</div>
+  </article>
+</main>
+<script>
+const btn=document.getElementById('read'),letter=document.getElementById('letter');
+btn.addEventListener('click',()=>{letter.classList.add('open');btn.textContent='Una carta escrita de corazón ❤️';btn.disabled=true;letter.scrollIntoView({behavior:'smooth',block:'start'});for(let i=0;i<18;i++){setTimeout(()=>{const h=document.createElement('span');h.className='heart';h.textContent=['♡','♥','💕','🤍'][Math.floor(Math.random()*4)];h.style.left=(Math.random()*96)+'vw';h.style.fontSize=(16+Math.random()*18)+'px';h.style.animationDuration=(4+Math.random()*3)+'s';document.body.appendChild(h);setTimeout(()=>h.remove(),7500)},i*110)}});
+</script>
+</body>
+</html>
